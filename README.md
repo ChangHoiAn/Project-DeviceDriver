@@ -31,9 +31,14 @@
 - DHT11 온습도 센서 (1-wire 데이터)
 - 로터리 인코더(2상 A/B + Push 버튼)
 
-<p align="center">
-  <img src="Drive_HW/images/hardware_overview.png" width="85%" alt="hardware overview slide"/>
-</p>
+| 부품                    | 인터페이스/신호                         | 역할                  | 비고                   |
+| --------------------- | -------------------------------- | ------------------- | -------------------- |
+| Raspberry Pi 4        | GPIO / Linux                     | 호스트(드라이버/애플리케이션 실행) | 3.3V GPIO 사용         |
+| SSD1306 OLED (128×64) | I2C (SDA/SCL)                    | 상태/정보 표시            | I2C 주소(보통 0x3C/0x3D) |
+| DS1302 RTC 모듈         | 3-wire (CE/RST, SCLK, I/O) + 배터리 | 시간 유지/타임스탬프         | 배터리로 전원 유지           |
+| DHT11 온습도 센서          | 1-wire Data                      | 온/습도 측정             | 샘플링 간격 제한 있음         |
+| 로터리 인코더               | A/B(2상) + Push 버튼                | 사용자 입력              | 인터럽트/폴링 방식 가능        |
+
 
 ### 회로도 / 배선
 
