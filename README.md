@@ -42,108 +42,24 @@
 </p>
 
 <table align="center">
-  <thead>
-    <tr>
-      <th align="center">Device</th>
-      <th align="center">Signal</th>
-      <th align="center">RPi (BCM)</th>
-      <th align="center">RPi (Physical)</th>
-      <th align="center">비고</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">OLED(SSD1306)</td>
-      <td align="center">SDA</td>
-      <td align="center">GPIO2</td>
-      <td align="center">3</td>
-      <td align="center">I2C1</td>
-    </tr>
-    <tr>
-      <td align="center"></td>
-      <td align="center">SCL</td>
-      <td align="center">GPIO3</td>
-      <td align="center">5</td>
-      <td align="center">I2C1</td>
-    </tr>
-    <tr>
-      <td align="center"></td>
-      <td align="center">VCC</td>
-      <td align="center">5V(또는 3V3)</td>
-      <td align="center">2(또는 1)</td>
-      <td align="center">모듈 스펙에 맞게</td>
-    </tr>
-
-    <tr>
-      <td align="center">DHT11</td>
-      <td align="center">DATA</td>
-      <td align="center">GPIO4</td>
-      <td align="center">7</td>
-      <td align="center">필요 시 Pull-up 확인</td>
-    </tr>
-    <tr>
-      <td align="center"></td>
-      <td align="center">VCC</td>
-      <td align="center">3V3</td>
-      <td align="center">1</td>
-      <td align="center"></td>
-    </tr>
-
-    <tr>
-      <td align="center">DS1302</td>
-      <td align="center">CE/RST</td>
-      <td align="center">GPIO12</td>
-      <td align="center">32</td>
-      <td align="center">3-wire</td>
-    </tr>
-    <tr>
-      <td align="center"></td>
-      <td align="center">SCLK</td>
-      <td align="center">GPIO5</td>
-      <td align="center">29</td>
-      <td align="center">3-wire</td>
-    </tr>
-    <tr>
-      <td align="center"></td>
-      <td align="center">I/O</td>
-      <td align="center">GPIO6</td>
-      <td align="center">31</td>
-      <td align="center">3-wire</td>
-    </tr>
-    <tr>
-      <td align="center"></td>
-      <td align="center">VCC</td>
-      <td align="center">3V3</td>
-      <td align="center">1</td>
-      <td align="center">배터리 포함 모듈 사용</td>
-    </tr>
-
-    <tr>
-      <td align="center">Rotary</td>
-      <td align="center">S1(A)</td>
-      <td align="center">GPIO22</td>
-      <td align="center">15</td>
-      <td align="center">2상</td>
-    </tr>
-    <tr>
-      <td align="center"></td>
-      <td align="center">S2(B)</td>
-      <td align="center">GPIO23</td>
-      <td align="center">16</td>
-      <td align="center">2상</td>
-    </tr>
-    <tr>
-      <td align="center"></td>
-      <td align="center">KEY</td>
-      <td align="center">GPIO24</td>
-      <td align="center">18</td>
-      <td align="center">Push 버튼</td>
-    </tr>
-  </tbody>
+  <tr>
+    <th align="center">Device</th>
+    <th align="center">Signal</th>
+    <th align="center">RPi (BCM)</th>
+    <th align="center">RPi (Physical)</th>
+    <th align="center">비고</th>
+  </tr>
+  <tr>
+    <td align="center">OLED(SSD1306)</td>
+    <td align="center">SDA</td>
+    <td align="center">GPIO2</td>
+    <td align="center">3</td>
+    <td align="center">I2C1</td>
+  </tr>
 </table>
 
-
 > (보드나 배선 변경 시, 소스의 핀 매핑만 교체)
+
 
 ---
 
