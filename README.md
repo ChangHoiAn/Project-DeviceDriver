@@ -136,7 +136,7 @@ sudo rmmod <module>
 
 ---
 
-## 구현 포인트(면접용 하이라이트)
+## 구현 포인트
 
 - **DHT11 bit-banging 수신 로직**
   - µs 단위 시퀀스(응답/비트 구간)를 timeout 기반으로 보호
