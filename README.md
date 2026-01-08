@@ -8,6 +8,7 @@
 </p>
 
 ---
+<img width="2039" height="1155" alt="image" src="https://github.com/user-attachments/assets/c97a79bb-e731-499c-abbb-bd02cb3786fa" />
 
 ## 주요 기능
 
