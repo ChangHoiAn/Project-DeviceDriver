@@ -8,7 +8,9 @@
 </p>
 
 ---
-<img width="2039" height="1155" alt="image" src="https://github.com/user-attachments/assets/c97a79bb-e731-499c-abbb-bd02cb3786fa" />
+## 작동 영상
+[작동 영상 재생하기](./Drive.mp4)
+---
 
 ## 주요 기능
 
