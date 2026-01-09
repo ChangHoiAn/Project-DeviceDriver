@@ -8,7 +8,9 @@
 </p>
 
 ---
-[작동 영상](./Drive.mp4)
+[작동 영상](https://github.com/user-attachments/assets/d3291560-b1ba-4f1c-abd4-0f46fdf6b480)
+
+
 ---
 
 ## 주요 기능
